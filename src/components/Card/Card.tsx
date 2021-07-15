@@ -25,7 +25,7 @@ const Card: React.FC = (props) => {
         <CardContentStyled>
           <CardMediaStyled
             image="/blackfriday.gif"
-            title="Contemplative Reptile"
+            title="Black Friday image"
           />
           <Typography gutterBottom variant="h5" component="h2">
             Não perca nossas promoções de Black Friday de produtos de automação!
