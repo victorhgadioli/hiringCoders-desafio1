@@ -7,10 +7,12 @@ import {
   CardActionsStyled,
   CardMediaStyled,
   CardContentStyled,
-} from "./Card.style";
+  LinkStyled,
+  ButtonStoreContainer,
+} from "./PromotionCard.style";
 import * as EmailValidator from "email-validator";
 
-const Card: React.FC = (props) => {
+const PromotionCard: React.FC = (props) => {
   const [email, setEmail] = useState("");
   const [validEmail, setValidEmail] = useState("");
 
@@ -65,8 +67,13 @@ const Card: React.FC = (props) => {
           {validEmail === "valid" ? "Inscrito!" : "Inscrever-se"}
         </ButtonStyled>
       </CardActionsStyled>
+      <ButtonStoreContainer>
+        <LinkStyled to="/store">
+          IR PARA LOJA
+        </LinkStyled>
+      </ButtonStoreContainer>
     </CardStyled>
   );
 };
 
-export default Card;
+export default PromotionCard;

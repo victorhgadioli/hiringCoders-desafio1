@@ -1,13 +1,19 @@
 import React from "react";
 import { BrowserRouter as Switch, Route } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
+import LandingPage from "./pages/landingPage";
+import Store from "./pages/store";
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <Switch>
-      <Route path="/">
+      <Route exact path="/">
         <LandingPage />
+      </Route>
+      <Route path="/store">
+        <Store />
       </Route>
     </Switch>
   );
-}
+};
+
+export default App;

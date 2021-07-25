@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/static/products/controladora_led.jpg",
+    "title": "Controladora de LED",
+    "price": 2300,
+    "category": "",
+    "description": ""
+  },
+  {
+    "image": "/static/products/cubo_led.jpeg",
+    "title": "Cubo de Plasma",
+    "price": 3000,
+    "category": "",
+    "description": ""
+  },
+  {
+    "image": "/static/products/esfera-led.jpg",
+    "title": "Esfera de LED",
+    "price": 2400,
+    "category": "",
+    "description": ""
+  }
+]

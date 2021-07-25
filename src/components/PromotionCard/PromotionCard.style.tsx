@@ -7,6 +7,7 @@ import {
   CardContent,
 } from "@material-ui/core";
 import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
 export const CardStyled = styled(Card)`
   width: 60%;
@@ -18,6 +19,20 @@ export const CardStyled = styled(Card)`
   min-width: 400px;
 `;
 
+export const LinkStyled = styled(Link)`
+  text-decoration: none;
+  padding: 0 0;
+  color: black;
+  font-size: 15px;
+`;
+
+export const ButtonStoreContainer = styled('div')`
+width: 100%;
+display: flex;
+justify-content: center;
+height: 30px;
+`;
+
 export const CardActionsStyled = styled(CardActions)`
   display: flex;
   flex-direction: row;
@@ -27,9 +42,9 @@ export const CardActionsStyled = styled(CardActions)`
 `;
 
 export const CardContentStyled = styled(CardContent)`
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const CardMediaStyled = styled(CardMedia)`
