@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   CartIconStyled,
   HeaderAppBar,
@@ -9,12 +9,10 @@ import {
 } from "./Header.style";
 import { Toolbar } from "@material-ui/core";
 import { IProductItem } from "../../utils/types";
-import { Link, useRouteMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   const [cartQty, setCartQty] = useState(0);
-
-  let { url } = useRouteMatch();
 
   const quantitizeCartList = () => {
     const cartListString = localStorage.getItem("cart-list");
