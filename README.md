@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como um desafio do programa Hiring Coders, da Gama
 
 ## Link para demo
 
-https://unruffled-lamport-131e20.netlify.app/
+https://vhg-blackfriday.netlify.app/
 
 ## Objetivo do projeto
 
